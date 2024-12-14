@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Building the project..."
+      - echo "Running tests..."
+      - mvn test
+      - echo "Packaging the application..."
+      - mvn package
